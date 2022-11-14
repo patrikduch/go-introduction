@@ -1,9 +1,9 @@
 package main
 
-import "fmt";
+import "fmt"
 
 func main() {
 	// declaration and initialization numbers array
-	numbers := []int { 1,2 };
-	fmt.Println(numbers);
+	numbers := []int{1, 2}
+	fmt.Println(numbers)
 }
