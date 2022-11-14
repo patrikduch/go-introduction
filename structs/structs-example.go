@@ -1,14 +1,14 @@
 package main
 
-import "fmt";
+import "fmt"
 
 type person struct {
 	firstName string
-	lastName string
+	lastName  string
 }
 
-func main () {
-	alex := person{firstName: "Patrik", lastName: "Duch"};
+func main() {
+	patrik := person{firstName: "Patrik", lastName: "Duch"}
 	
-	fmt.Println(alex.firstName);
+	fmt.Println(patrik.firstName)
 }
