@@ -1,12 +1,12 @@
 package main
 
-import "fmt";
+import "fmt"
 
 func main() {
 
-	array := []int { 1, 2, 3};
+	array := []int{1, 2, 3}
 
 	for _, item := range array {
-		fmt.Println(item);
+		fmt.Println(item)
 	}
 }
